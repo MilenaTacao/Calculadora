@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <form action="calculadora.php" metod="POST">
+            <label>Coloque os números e escolha os operadores:</label><br />
+            <input type="number" name="pnumero" />
+
+            <select name="operadores" size="1">
+                <option value="soma">+</option>
+                <option value="subitracao">-</option>
+                <option value="multiplicacao">x</option>
+                <option value="divisao">/</option>
+            </select>
+
+            <input type="number" name="snumero" />
+
+            <input type="submit" value="Calcular" />
+        </form>
+    </body>
+</html>
